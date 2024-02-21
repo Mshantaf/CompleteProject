@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression" parallel="tests" thread-count="12">  
+  <!--   <parameter name="url" value="https://demo.guru99.com/test/newtours/#google_vignette"></parameter> -->
+   
+        
+    <test name="test1">
+        <parameter name="brow" value="edge"></parameter>
+        <parameter name="FN" value="Mohamed"></parameter>
+        <parameter name="LN" value="elsh"></parameter> 
+        
+           <groups>
+			<run>
+				<include name="reg"></include>
+			<!-- 	<include name="smoke"></include>-->
+			</run>
+		</groups> 
+		
+        <classes>
+            <class name="CP.TestClassCP"></class>
+        </classes>
+    </test>
+    
+    <test name="test2">
+        <parameter name="brow" value="Firefox"></parameter>
+         <parameter name="FN" value="Ahmad"></parameter>
+        <parameter name="LN" value="hassan"></parameter> 
+  
+    <groups>
+			<run>
+				<include name="reg"></include>
+				<!-- <include name="smoke"></include> -->
+			</run>
+		</groups>      
+  
+        <classes>
+            <class name="CP.TestClassCP"></class>
+        </classes>
+    </test>
+    
+    <test name="test3">
+        <parameter name="brow" value="Chrome"></parameter>
+         <parameter name="FN" value="Abd"></parameter>
+        <parameter name="LN" value="shantaf"></parameter> 
+        
+          <groups>
+			<run>
+				<include name="reg"></include>
+				<!-- <include name="smoke"></include> -->
+			</run>
+			
+		</groups>
+               <classes>
+            <class name="CP.TestClassCP"></class>
+        </classes>
+    </test>
+
+</suite>

@@ -8,6 +8,7 @@
           <include name="afterMethod"/>
           <include name="registration_with_valid_data"/>
           <include name="beforeMethod"/>
+          <include name="ReTypeWrongPass"/>
         </methods>
       </class> <!-- CP.CP_Test -->
     </classes>

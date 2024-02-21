@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CP.CP_Test" time="30.787" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CP.CP_Test" time="1.306" tests="6" errors="0" skipped="5" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\mshan\AppData\Local\Temp\surefire8887509965463629633\surefirebooter5565262688628613406.jar C:\Users\mshan\AppData\Local\Temp\surefire8887509965463629633 2024-02-16T11-27-21_879-jvmRun1 surefire2424323760651830126tmp surefire_017176268966790719214tmp"/>
+    <property name="sun.java.command" value="C:\Users\mshan\AppData\Local\Temp\surefire5734888726459223744\surefirebooter10188255607132831134.jar C:\Users\mshan\AppData\Local\Temp\surefire5734888726459223744 2024-02-19T01-02-14_621-jvmRun1 surefire10000478447888203371tmp surefire_04451220533146489461tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mshan\eclipse-workspace\CompleteProject\target\test-classes;C:\Users\mshan\eclipse-workspace\CompleteProject\target\classes;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mshan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mshan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mshan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mshan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mshan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mshan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mshan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mshan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mshan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mshan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mshan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mshan\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\mshan\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\mshan\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mshan\AppData\Local\Temp\surefire8887509965463629633\surefirebooter5565262688628613406.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mshan\AppData\Local\Temp\surefire5734888726459223744\surefirebooter10188255607132831134.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -56,6 +56,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="registration_with_valid_data" classname="CP.CP_Test" time="4.89"/>
-  <testcase name="ReTypeWrongPass" classname="CP.CP_Test" time="11.999"/>
+  <testcase name="beforeMethod" classname="CP.CP_Test" time="0.949">
+    <failure message="&#10;Parameter &apos;brow&apos; is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'brow' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="beforeMethod" classname="CP.CP_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="registration_with_valid_data" classname="CP.CP_Test" time="0">
+    <skipped message="&#10;Parameter &apos;brow&apos; is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterMethod" classname="CP.CP_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="CP.CP_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="ReTypeWrongPass" classname="CP.CP_Test" time="0">
+    <skipped message="&#10;Parameter &apos;brow&apos; is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined&#10;"/>
+  </testcase>
 </testsuite>
